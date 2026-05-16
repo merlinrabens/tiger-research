@@ -10,7 +10,7 @@ When invoked from Claude Code, use the `Agent` tool with `subagent_type: "genera
 Agent({
   description: "Tiger A: docs research",
   subagent_type: "general-purpose",
-  prompt: "<full tiger prompt — see archetype templates>",
+  prompt: "<full tiger prompt - see archetype templates>",
   run_in_background: true
 })
 
@@ -28,12 +28,12 @@ Agent({
 
 Each tiger gets a self-contained prompt. The general-purpose subagent doesn't see the parent conversation, so the prompt must include:
 
-1. **Role + mandate** — "You are research tiger #N doing X"
-2. **Sources to read** — exact file paths, URLs, search queries
-3. **Tools to prefer** — explicit list, with examples
-4. **Output structure** — exact sections + word counts
-5. **Constraints** — citation rules, length limits, what to skip
-6. **Time budget** — explicit max wall-clock
+1. **Role + mandate** - "You are research tiger #N doing X"
+2. **Sources to read** - exact file paths, URLs, search queries
+3. **Tools to prefer** - explicit list, with examples
+4. **Output structure** - exact sections + word counts
+5. **Constraints** - citation rules, length limits, what to skip
+6. **Time budget** - explicit max wall-clock
 
 ## Standard tiger prompt template
 
@@ -64,7 +64,7 @@ Be honest. Which queries returned nothing useful. Don't pad with generic advice.
 - Cite source URLs/paths for every claim
 - Quote selectively (1-2 short quotes max)
 - {DOMAIN_SPECIFIC_RULES}
-- {TIME_BUDGET} total budget — don't spelunk indefinitely
+- {TIME_BUDGET} total budget - don't spelunk indefinitely
 
 **Don't repeat work other tigers are doing:** {WHAT_OTHER_TIGERS_COVER}
 ```

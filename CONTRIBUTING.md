@@ -1,6 +1,6 @@
 # Contributing
 
-tiger-research is a **methodology skill**, not code — it's prompt and
+tiger-research is a **methodology skill**, not code - it's prompt and
 process. Contributions are improvements to the method, the archetypes,
 the grids, or the synthesis discipline.
 
@@ -10,7 +10,7 @@ the grids, or the synthesis discipline.
   defined output shape (add to `SKILL.md` + `references/tool-mapping.md`).
 - A new **grid template** for a recurring research shape
   (`references/grid-templates.md`).
-- Sharper **synthesis rules** — especially anything that improves
+- Sharper **synthesis rules** - especially anything that improves
   cross-validation or stops uncertainty getting smoothed over.
 - A host adapter (`templates/spawn-*.md`) for another multi-agent
   runtime.

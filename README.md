@@ -45,14 +45,14 @@ into a host that can spawn parallel agents. It ships with:
 
 ## Install
 
-**Claude Code** — copy into your skills directory:
+**Claude Code** - copy into your skills directory:
 
 ```bash
 git clone https://github.com/merlinrabens/tiger-research.git
 cp -r tiger-research ~/.claude/skills/tiger-research
 ```
 
-**OpenClaw-style host** — place under the host's skills path and ensure
+**OpenClaw-style host** - place under the host's skills path and ensure
 the spawn-depth limit allows the orchestrator pattern (see
 `templates/spawn-openclaw.md`).
 
@@ -83,13 +83,13 @@ in [`references/grid-templates.md`](references/grid-templates.md).
 ## Design principles
 
 - **Multiple independent angles beat one thorough one.**
-- **Non-overlapping scope** — one source type per tiger, or it's wasted
+- **Non-overlapping scope** - one source type per tiger, or it's wasted
   parallelism.
-- **Honesty about confidence** — "couldn't verify" is a first-class
+- **Honesty about confidence** - "couldn't verify" is a first-class
   output, never dropped, never upgraded to a claim.
-- **Personalization is the point** — generic advice that contradicts
+- **Personalization is the point** - generic advice that contradicts
   your real constraints gets demoted.
-- **No padding** — length follows evidence.
+- **No padding** - length follows evidence.
 
 ## License
 

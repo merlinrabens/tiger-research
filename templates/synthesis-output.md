@@ -1,11 +1,11 @@
 # Synthesis Output Template
 
 Copy this into `workspace/research/{slug}/playbook.md` and fill it in.
-Delete bracketed guidance as you go. Keep the section order — it's the
+Delete bracketed guidance as you go. Keep the section order - it's the
 order a reader needs: bottom line first, uncertainty never buried.
 
 ```markdown
-# {Topic} — Tiger Research Playbook
+# {Topic} - Tiger Research Playbook
 
 > Research date: {YYYY-MM-DD} · {N} tigers ({list archetypes}) · scope: {one line}
 
@@ -17,7 +17,7 @@ issue, it goes HERE, not buried below.}
 ## 2. Your profile
 {1 paragraph from the setup/context tiger. The specific, cited facts
 about the user's situation that weight everything below. No generic
-"you're a busy founder" filler — real constraints only.}
+"you're a busy founder" filler - real constraints only.}
 
 ## 3. Cross-validated (high confidence)
 {3-7 findings 2+ tigers independently agreed on. Lead with these. Tag
@@ -39,7 +39,7 @@ only if you can defend it with cited evidence; otherwise present both
 and say what would resolve it.}
 
 ## 6. Concrete recommendations (prioritized)
-1. {Action} — {why} — {tiger source} — {reversibility / risk}
+1. {Action} - {why} - {tiger source} - {reversibility / risk}
 2. ...
 
 ## 7. Open questions / professional follow-up
@@ -48,8 +48,8 @@ expert, domain authority, or data the tigers couldn't access. Be
 explicit; do not paper over gaps.}
 
 ## 8. Tiger source attribution
-- 🐯 A {name} — {what it researched, what it found of value}
-- 🐯 B {name} — {...}
+- 🐯 A {name} - {what it researched, what it found of value}
+- 🐯 B {name} - {...}
 ```
 
 ## Length targets

@@ -26,7 +26,7 @@ The "What I couldn't fully verify" section gets a dedicated heading in the playb
 ## Synthesis output template
 
 ```markdown
-# {Topic} — Tiger Research Playbook
+# {Topic} - Tiger Research Playbook
 
 ## TL;DR
 3-5 lines. The bottom line.
@@ -48,7 +48,7 @@ The "What I couldn't fully verify" section gets a dedicated heading in the playb
 Findings where tigers disagreed. Surface the disagreement, don't pick a side unless you can defend it.
 
 ## Concrete recommendations (prioritized)
-1. {Action} — {why} — {tiger source}
+1. {Action} - {why} - {tiger source}
 2. ...
 
 ## Anti-patterns to avoid (cross-validated)
@@ -58,8 +58,8 @@ What multiple tigers warned against.
 Things tigers couldn't verify. Where the user needs a licensed expert / domain authority / specific data the tigers couldn't access.
 
 ## Tiger source attribution
-- 🐯 A {name} — {what they researched, what they found of value}
-- 🐯 B {name} — {...}
+- 🐯 A {name} - {what they researched, what they found of value}
+- 🐯 B {name} - {...}
 ```
 
 ## Length guidance
@@ -79,4 +79,4 @@ Surface to the user explicitly when:
 - Tigers found a TIME-SENSITIVE issue (deadline, expiring auth, regulatory window)
 - Tigers found a HIGH-DOLLAR risk (legal, tax, financial)
 
-Don't bury these in the recommendations list — call them out in the TL;DR.
+Don't bury these in the recommendations list - call them out in the TL;DR.

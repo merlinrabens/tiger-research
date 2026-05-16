@@ -8,7 +8,7 @@ session-spawn tool (e.g. `sessions_spawn`).
 Typical multi-agent-host defaults:
 - a global subagent concurrency lane (e.g. `maxConcurrent: 8`)
 - a per-parent child cap (e.g. `maxChildrenPerAgent: 5`)
-- a spawn-depth limit (often `1` by default) — set to `2` for the
+- a spawn-depth limit (often `1` by default) - set to `2` for the
   orchestrator-pattern tiger grids
 
 For tiger-research, raise the spawn-depth limit to `2` in the host
@@ -19,7 +19,7 @@ config if it isn't already.
 ```
 sessions_spawn({
   agentId: "main",                 // or a specialized agent if defined
-  task: "<full tiger prompt — see spawn-claude-code.md template>",
+  task: "<full tiger prompt - see spawn-claude-code.md template>",
   model: "<strong-model>",         // or a cheaper model for light tigers
   thinking: "high",                // for domain/critique tigers
   metadata: {
@@ -48,12 +48,12 @@ Tigers on a premium model consume the rolling compute window. Heuristics:
   synthesis-critical tigers
 
 Mixing models per tiger:
-- Setup Tiger → cheap — just reads files
-- Docs Tiger → cheap — just reads docs
-- Community Tiger → cheap — just searches
-- Domain Tiger → expensive — needs deep reasoning
-- Critique Tiger → expensive — adversarial reasoning
-- Pattern Tiger → cheap — just searches
+- Setup Tiger → cheap - just reads files
+- Docs Tiger → cheap - just reads docs
+- Community Tiger → cheap - just searches
+- Domain Tiger → expensive - needs deep reasoning
+- Critique Tiger → expensive - adversarial reasoning
+- Pattern Tiger → cheap - just searches
 
 This optimizes burn while keeping reasoning-heavy work on the strong model.
 
