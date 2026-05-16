@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="tiger-research: parallel tigers synthesized into one playbook">
+  <defs>
+    <style>
+      .lbl{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;fill:#cbd5e1;font-size:20px}
+      .big{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;fill:#f1f5f9;font-size:36px;font-weight:700}
+      .sub{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;fill:#94a3b8;font-size:17px}
+      .tg{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;fill:#0b0f17;font-size:20px;font-weight:700}
+      .di{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;fill:#cbd5e1;font-size:18px}
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" fill="#0b0f17"/>
+  <text x="60" y="66" class="big">🐯 tiger-research</text>
+  <text x="60" y="96" class="sub">parallel multi-source research · non-overlapping mandates · one synthesized playbook</text>
+
+  <!-- 5 parallel tigers: single column, label inline to the right (no collisions) -->
+  <g>
+    <g transform="translate(120,160)"><circle r="28" fill="#ff6a33"/><text x="0" y="7" text-anchor="middle" class="tg">A</text><text x="44" y="7" class="lbl">docs</text></g>
+    <g transform="translate(120,225)"><circle r="28" fill="#ff6a33"/><text x="0" y="7" text-anchor="middle" class="tg">B</text><text x="44" y="7" class="lbl">setup</text></g>
+    <g transform="translate(120,290)"><circle r="28" fill="#ff6a33"/><text x="0" y="7" text-anchor="middle" class="tg">C</text><text x="44" y="7" class="lbl">community</text></g>
+    <g transform="translate(120,355)"><circle r="28" fill="#ff6a33"/><text x="0" y="7" text-anchor="middle" class="tg">D</text><text x="44" y="7" class="lbl">domain</text></g>
+    <g transform="translate(330,290)"><circle r="28" fill="#ff6a33"/><text x="0" y="7" text-anchor="middle" class="tg">E</text><text x="44" y="7" class="lbl">critique</text></g>
+  </g>
+
+  <!-- convergence -->
+  <g stroke="#ff6a33" stroke-width="2.5" opacity="0.5" fill="none">
+    <path d="M148 160 C 470 160 520 250 705 258"/>
+    <path d="M148 225 C 470 225 540 256 705 260"/>
+    <path d="M148 290 C 430 290 540 260 705 262"/>
+    <path d="M148 355 C 470 355 540 270 705 266"/>
+    <path d="M358 290 C 520 290 580 264 705 264"/>
+  </g>
+
+  <!-- synthesis node -->
+  <g transform="translate(760,262)">
+    <path d="M0 -56 L56 0 L0 56 L-56 0 Z" fill="none" stroke="#ff6a33" stroke-width="3"/>
+    <text x="0" y="-3" text-anchor="middle" class="di">cross-</text>
+    <text x="0" y="21" text-anchor="middle" class="di">validate</text>
+  </g>
+
+  <!-- arrow -->
+  <g stroke="#ff6a33" stroke-width="3" fill="none">
+    <path d="M820 262 L925 262"/><path d="M912 252 L925 262 L912 272"/>
+  </g>
+
+  <!-- playbook doc -->
+  <g transform="translate(935,185)">
+    <text x="110" y="-16" text-anchor="middle" class="lbl">playbook.md</text>
+    <rect width="220" height="155" rx="10" fill="none" stroke="#ff6a33" stroke-width="3"/>
+    <line x1="24" y1="42" x2="150" y2="42" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round"/>
+    <line x1="24" y1="70" x2="196" y2="70" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="24" y1="92" x2="196" y2="92" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="24" y1="114" x2="160" y2="114" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="24" y1="136" x2="120" y2="136" stroke="#ff6a33" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

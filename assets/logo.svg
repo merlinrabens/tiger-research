@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="tiger-research logo">
+  <!-- solid fills only: renders identically across GitHub / browsers / rasterizers -->
+  <rect x="20" y="20" width="160" height="160" rx="38" fill="#ff6a33"/>
+
+  <!-- tiger stripes that CONVERGE to one node = parallel tigers → one synthesis -->
+  <g stroke="#0b0f17" stroke-linecap="round" fill="none">
+    <path d="M40 58  C 92 58  120 92  138 100" stroke-width="12"/>
+    <path d="M36 88  C 92 88  118 97  138 100" stroke-width="12"/>
+    <path d="M36 112 C 92 112 118 103 138 100" stroke-width="12"/>
+    <path d="M40 142 C 92 142 120 108 138 100" stroke-width="12"/>
+  </g>
+
+  <!-- synthesis node -->
+  <circle cx="142" cy="100" r="16" fill="#0b0f17"/>
+  <circle cx="142" cy="100" r="6" fill="#ff6a33"/>
+</svg>
