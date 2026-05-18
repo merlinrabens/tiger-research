@@ -98,6 +98,8 @@ Document the plan briefly to the user before spawning ("I'm spawning 4 tigers: A
 
 **In an OpenClaw-style multi-agent host:** use the host's session-spawn tool. Each child gets its own fresh session, no main-context pollution. (See `templates/spawn-openclaw.md`.)
 
+**On hermes-agent:** spawn each tiger as a full `hermes chat -q` subprocess, not the in-process delegate tool (which strips the tools tigers need). (See `templates/spawn-hermes.md`.)
+
 **Capacity guidance:**
 - Max ~5 parallel tigers on most auth tiers
 - Max 6 in burst - but watch for rate limits
@@ -170,6 +172,7 @@ See `templates/synthesis-output.md` for the full playbook template.
 - `references/tool-mapping.md` - Which research tools each tiger should prefer
 - `templates/spawn-claude-code.md` - Spawn syntax for Claude Code
 - `templates/spawn-openclaw.md` - Spawn syntax for an OpenClaw-style host
+- `templates/spawn-hermes.md` - Spawn syntax for hermes-agent
 - `templates/synthesis-output.md` - Final playbook template
 
 ## Anti-patterns
