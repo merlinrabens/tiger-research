@@ -60,7 +60,7 @@ X"*, *"perspective check on X"*, or *"pull every source for X"*.
 ## How it works
 
 <div align="center">
-<img src="assets/hero.svg" alt="parallel tigers converging through cross-validate into one synthesized playbook" width="900" />
+<img src="assets/hero-v2.svg" alt="parallel tigers converging through cross-validate into one synthesized playbook" width="900" />
 </div>
 
 Tigers run in parallel with non-overlapping mandates. Each cites every
