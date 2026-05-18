@@ -8,8 +8,8 @@ the heavier one.
 
 | Primitive | What it is | Fit for tigers |
 |---|---|---|
-| **`delegate` tool** | in-process subagent, `skip_memory=True`, stripped context, bounded by the parent's turn | ❌ no — tigers need full tools/context and must outlive a single turn |
-| **`hermes chat -q` subprocess** | a full, independent agent session (its own tools, memory, profile), fire-and-forget, PID-supervised | ✅ yes — this is what the cron/kanban dispatcher already uses for autonomous work |
+| **`delegate` tool** | in-process subagent, `skip_memory=True`, stripped context, bounded by the parent's turn | ❌ no - tigers need full tools/context and must outlive a single turn |
+| **`hermes chat -q` subprocess** | a full, independent agent session (its own tools, memory, profile), fire-and-forget, PID-supervised | ✅ yes - this is what the cron/kanban dispatcher already uses for autonomous work |
 
 A tiger is an autonomous, minutes-long, fully-equipped research run.
 That is the subprocess-worker shape, not the in-process delegate shape.
@@ -20,7 +20,7 @@ Using `delegate` would strip the very tools a tiger needs.
 Spawn each tiger as its own one-shot agent process:
 
 ```bash
-hermes -p <profile> chat -q "<full tiger prompt — see spawn-claude-code.md template>" &
+hermes -p <profile> chat -q "<full tiger prompt - see spawn-claude-code.md template>" &
 ```
 
 - One process per tiger, launched together, run in parallel.
@@ -45,7 +45,7 @@ hermes -p <profile> chat -q "<full tiger prompt — see spawn-claude-code.md tem
 
 - Respect `agent.max_turns` and the configured model tier per tiger.
 - Mix models by tiger weight (cheap model for file/search tigers,
-  strong model for domain/critique) — see `spawn-openclaw.md` for the
+  strong model for domain/critique) - see `spawn-openclaw.md` for the
   per-tiger cost table; the same economics apply.
 - Stay within the host's concurrent-session limits; if a spawn is
   rejected for "max concurrent sessions", close stale sessions and
