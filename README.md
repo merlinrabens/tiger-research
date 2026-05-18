@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="assets/logo.svg" alt="tiger-research" width="120" />
+<img src="assets/cover.png" alt="tiger-research" width="420" />
 
 # tiger-research
 
 **Parallel multi-source research for AI agents.** Spawn N specialized
 "tigers", each with a non-overlapping mandate and tool preference, then
 synthesize their findings into one cross-validated playbook.
-
-<img src="assets/hero.svg" alt="parallel tigers converging into one synthesized playbook" width="900" />
 
 </div>
 
@@ -61,20 +59,15 @@ X"*, *"perspective check on X"*, or *"pull every source for X"*.
 
 ## How it works
 
-```
-question
-   │
-   ├─►  🐯 A  docs        ┐
-   ├─►  🐯 B  setup       │  parallel, non-overlapping,
-   ├─►  🐯 C  community   ├─ each cites every claim,
-   ├─►  🐯 D  domain      │  each flags what it couldn't verify
-   └─►  🐯 E  critique    ┘
-                          │
-                   cross-validate  (3+ agree → lead · disagree → flag)
-                          │
-                   workspace/research/{slug}/playbook.md
-                   + per-tiger raw transcripts (auditable)
-```
+<div align="center">
+<img src="assets/hero.svg" alt="parallel tigers converging through cross-validate into one synthesized playbook" width="900" />
+</div>
+
+Tigers run in parallel with non-overlapping mandates. Each cites every
+claim and flags what it could not verify. Synthesis cross-validates
+(3+ agree leads the playbook, disagreement gets flagged explicitly,
+never smoothed over), then writes `workspace/research/{slug}/playbook.md`
+plus per-tiger raw transcripts that stay auditable.
 
 Full method in [`SKILL.md`](SKILL.md). Synthesis discipline in
 [`references/synthesis-rules.md`](references/synthesis-rules.md). Grids
