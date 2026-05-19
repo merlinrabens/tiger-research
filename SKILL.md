@@ -85,7 +85,9 @@ If the invocation already answers these, skip - just plan the grid.
 
 ### Step 2: Plan the tiger grid
 
-Pick 2-6 tigers from archetypes. Make them **non-overlapping** in scope:
+Start from `references/grid-templates.md`: it has curated pre-built tiger combinations for common topic types (technical architecture, legal/financial critique, project audit). Take the closest grid and customize it rather than improvising from scratch.
+
+Then settle on 2-6 tigers from the archetypes. Make them **non-overlapping** in scope:
 - Each tiger gets a different SOURCE TYPE
 - Each tiger gets a different TOOL PREFERENCE
 - Each tiger gets a focused output shape
